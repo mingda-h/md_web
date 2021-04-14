@@ -1,0 +1,6 @@
+# Project exclude paths
+/consumer/target/
+/database/target/
+/database-infra/target/
+/provider/target/
+/provider-infra/target/
