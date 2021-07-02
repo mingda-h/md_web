@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableEurekaClient
 @SpringBootApplication
+@ComponentScan(basePackages = "com.md.mysql")
 public class DataBaseApplication {
     public static void main(String[] args) {
         SpringApplication.run(DataBaseApplication.class, args);

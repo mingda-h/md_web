@@ -1,24 +1,19 @@
-package com.md;
+package com.md.neo4j;
 
-import com.md.infra.neo4jDaoInfra;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.neo4j.driver.v1.*;
 import static org.neo4j.driver.v1.Values.parameters;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.ComponentScan;
 
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.UUID;
 import java.util.Map;
 
 
-@ComponentScan(basePackages = {"com.md"})
+@ComponentScan(basePackages = {"com.md.neo4j"})
 @Component
 public class Neo4jDao {
 
